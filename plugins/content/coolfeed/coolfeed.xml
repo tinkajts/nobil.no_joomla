@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="content" method="upgrade">
+	<name>Plugin CoolFeed</name>
+	<author>Trung Nguyen Quang</author>
+	<creationDate>March 2011</creationDate>
+	<copyright>www.JoomAvatar.com</copyright>
+	<license>License GNU General Public License version 2 or later</license>
+	<authorEmail>trung3388@joomavatar.com</authorEmail>
+	<authorUrl>www.joomavatar.com</authorUrl>
+	<version>1.0.4</version>
+	<edition>Free</edition>
+	<description>PLG_COOLFEED_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="coolfeed">coolfeed.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_coolfeed.ini</language>
+	</languages>
+</extension>

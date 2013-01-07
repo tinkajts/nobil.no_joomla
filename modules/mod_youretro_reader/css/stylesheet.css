@@ -1,0 +1,173 @@
+/**
+* @package YJ Module Engine
+* @author Youjoomla LLC
+* @website Youjoomla.com * @copyright  Copyright (c) 2007 - 2011 Youjoomla LLC.
+* @license   PHP files are GNU/GPL V2 Copyleft CSS / JS / IMAGES are Copyrighted Commercial
+*/
+/* news item holder*/
+.YR_reader {
+	display:block;
+	position:relative;
+	margin:0px auto 0px;
+	overflow:hidden;
+}
+/* navigator styling */
+.YR_reader .navigator_outer {
+	display:block;
+	position:absolute;
+	right:0px; /* left */
+	top:5px;
+	z-index:100;
+	overflow:hidden;
+}
+.YR_reader .navigator {
+	display:block;
+	position:relative;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+/* default navigator element */
+.YR_reader .navigator li.yrrelement {
+	display:block;
+	position:relative;
+	clear:none;
+	float:left;
+	margin:0px 0px 10px 10px;
+	padding:4px;
+	cursor:pointer;
+	background:#fff;
+	border:1px solid #dce0e5;
+}
+/* default instance inner navigator element styling */
+.YR_reader .navigator li.yrrelement div.inner {
+	display:block;
+	position:relative;
+	clear:both;
+	margin-left:auto; /* nista */
+	overflow:hidden;
+}
+.YR_reader .navigator li.yrrelement div.inner_over{
+	display:block;
+	position:relative;
+	clear:both;
+	overflow:hidden;
+}
+.YR_reader .img_holder {
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	position:relative;
+	margin:0 auto;
+}
+.YR_reader li.yrrelement div.inner_over .overimg {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:block;
+	z-index:100;
+	background:none;
+}
+/* selected navigator element */
+.YR_reader .navigator li.yrrselected div.inner_over .overimg {
+	background: url(../images/overimg.png) no-repeat left bottom;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:block;
+}
+/* end of navigation styling, starting slides */
+.YR_reader .slidesholder {
+	display:block;
+	position:relative;
+	margin-right:auto;
+	overflow:hidden;
+}
+.YR_reader .slidesholder div.yrrslide {
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.YR_reader div.yrrslide div.long_desc {
+	display:block;
+	font-size:12px;
+	line-height:20px;
+	float:right;
+	margin:0 40px 0 0;
+	text-align:justify;
+	height:auto;
+}
+.YR_reader .yr_into_title {
+	font-size:28px;
+	line-height:18px;
+	padding:0 0 10px 0;
+	margin:10px 40px 10px 0;
+	border-bottom:5px solid #dce0e5;
+	letter-spacing:normal;
+}
+.YR_reader .youretro_readon {
+	text-transform:uppercase;
+	width:212px;
+	height:212px;
+	float:left;
+	margin:auto;
+	background:url(../images/readon.png) no-repeat left top;
+	
+}
+.YR_reader .youretro_readon span {
+	display:block;
+	overflow:hidden;
+	width:212px;
+	height:212px;
+	text-indent:-1000px;
+	visibility:hidden;
+	background:url(../images/readon.png) no-repeat left bottom;
+}
+.YR_reader .yrreader_img,
+.YR_reader .yrreader_img span {
+	display:block;
+	overflow:hidden;
+}
+.YR_reader .yrreader_img {
+	float:right;
+	margin:0 40px 0 0;
+}
+/* LEFT NAVIGATION*/
+.YR_reader.left .navigator_outer {
+	display:block;
+	position:absolute;
+	left:0px; /* left */
+	right:auto;
+	top:0px;
+	z-index:100;
+	overflow:hidden;
+}
+.YR_reader.left .slidesholder{
+	float:right;
+}
+.YR_reader.left .navigator li.yrrelement {
+	margin:0px 10px 10px 0px;
+}
+.YR_reader.left .youretro_readon {
+	float:right;
+	margin:0 20px 0 0;
+}
+.YR_reader.left div.yrrslide div.long_desc {
+	float:left;
+	margin:0 0px 0 20px;
+}
+.YR_reader.left .yrreader_img {
+	float:left;
+	margin:0 0px 0 20px;
+}
+.YR_reader.left .yr_into_title {
+	margin:10px 20px 10px 20px;
+}
+/* reset module divs*/
+.yjmeyrreader .yjsquare_in,
+.yjmeyrreader .module,
+.yjmeyrreader .module_table {
+	padding:0;
+	margin:0;
+}

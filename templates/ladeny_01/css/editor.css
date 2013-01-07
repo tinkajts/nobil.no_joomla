@@ -1,0 +1,340 @@
+/* begin Page */
+/* Created by Artisteer v3.1.0.48375 */
+
+/* Compatibility rule for default TinyMCE skin (for td element): */
+td {
+   color: inherit;
+   font-family: inherit;
+   font-size: inherit;
+   margin: inherit;
+}
+
+body, table
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+body, table
+{
+   text-align: left;
+}
+
+body 
+{
+   direction: ltr;
+   color: #404040;
+   background: #FFFFFF;
+}
+
+li,
+table,
+a,
+a:link,
+a:visited,
+a:hover
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+}
+
+p
+{
+   margin: 12px 0;
+}
+
+h1,
+h1 a,
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h2,
+h2 a,
+h2 a:link,
+h2 a:visited,
+h2 a:hover,
+h3,
+h3 a,
+h3 a:link,
+h3 a:visited,
+h3 a:hover,
+h4,
+h4 a,
+h4 a:link,
+h4 a:visited,
+h4 a:hover,
+h5,
+h5 a,
+h5 a:link,
+h5 a:visited,
+h5 a:hover,
+h6,
+h6 a,
+h6 a:link,
+h6 a:visited,
+h6 a:hover
+{
+   font-family: "Century Gothic",Arial, Helvetica, Sans-Serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+}
+
+a
+{
+   text-decoration: none;
+   color: #478B27;
+}
+
+a:link
+{
+   text-decoration: none;
+   color: #478B27;
+}
+
+a:visited
+{
+   color: #179BD3;
+}
+
+a:hover
+{
+   text-decoration: underline;
+   color: #5DB734;
+}
+
+h1
+{
+   color: #595959;
+   margin: 20px 0;
+   font-weight: normal;
+   text-transform: uppercase;
+}
+
+h1 a,
+h1 a:link,
+h1 a:hover,
+h1 a:visited
+{
+   font-weight: normal;
+   text-transform: uppercase;
+}
+
+h2
+{
+   color: #757575;
+   margin: 19px 0;
+   font-size: 24px;
+}
+
+h2 a,
+h2 a:link,
+h2 a:hover,
+h2 a:visited
+{
+   font-size: 24px;
+}
+
+h3
+{
+   color: #949494;
+   margin: 20px 0 10px;
+   font-weight: normal;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+h3 a,
+h3 a:link,
+h3 a:hover,
+h3 a:visited
+{
+   font-weight: normal;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+h4
+{
+   color: #438325;
+   font-weight: normal;
+   font-size: 24px;
+   text-transform: uppercase;
+}
+
+h4 a,
+h4 a:link,
+h4 a:hover,
+h4 a:visited
+{
+   font-weight: normal;
+   font-size: 24px;
+   text-transform: uppercase;
+}
+
+h5
+{
+   color: #696969;
+   font-weight: normal;
+   font-size: 60px;
+   text-transform: uppercase;
+}
+
+h5 a,
+h5 a:link,
+h5 a:hover,
+h5 a:visited
+{
+   font-weight: normal;
+   font-size: 60px;
+   text-transform: uppercase;
+}
+
+h6
+{
+   color: #949494;
+   margin: -5px 0 -15px;
+   font-size: 28px;
+}
+
+h6 a,
+h6 a:link,
+h6 a:hover,
+h6 a:visited
+{
+   font-size: 28px;
+}
+
+ul
+{
+   list-style-type: none;
+   margin: 1em 0 1em 2em;
+   padding: 0;
+}
+
+ol
+{
+   list-style-position: inside;
+   margin: 1em 0 1em 2em;
+   padding: 0;
+}
+
+/* end Page */
+
+/* begin Box, Post */
+/* set background fot correct editing in administrator: */
+
+a img
+{
+   border: 0;
+}
+
+img
+{
+   border-color: #71C9EF;
+   border-style: solid;
+   border-width: 0;
+   margin: 0 0 0 0;
+}
+
+table
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+/* end Box, Post */
+
+/* begin PostBullets */
+
+li
+{
+   font-size: 13px;
+   color: #141414;
+   margin: 0 0 5px -25px;
+   padding: 3px 0 3px 39px;
+}
+
+li ol, .art-post li ul
+{
+   margin: 0.5em 0 0.5em 2em;
+   padding: 0;
+}
+
+ol>li
+{
+   background: none;
+   padding-left: 0;
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+ul>li
+{
+   background-image: url('../images/postbullets.png');
+   background-repeat: no-repeat;
+   background-position: top left;
+   padding-left: 39px;
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+/* end PostBullets */
+
+/* begin PostQuote */
+blockquote,
+blockquote a,
+blockquote a:link,
+blockquote a:visited,
+blockquote a:hover
+{
+   color: #03141C;
+   font-style: italic;
+   font-weight: normal;
+   text-align: left;
+}
+
+blockquote p
+{
+   margin: 0;
+   margin: 2px 0 2px 15px;
+}
+
+blockquote
+{
+   margin: 10px;
+   padding: 2px;
+   background-color: #B6E3F7;
+   margin-left: 50px;
+   padding-left: 25px;
+   background-image: url('../images/postquote.png');
+   background-position: left top;
+   background-repeat: no-repeat;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+
+/* end PostQuote */
+

@@ -1,0 +1,195 @@
+#bannerspot{
+	width: 574px;
+	/*height: 122px;*/
+	height: 91px;
+	border: 0px solid red;
+	padding:0;
+	margin: 1em;
+}
+
+
+#bannerspot .bannergroup{
+	float: right;
+	margin: 0 0 0.6em 0.6em;
+}
+
+#bannerspot .banneritem{
+	height: 40px;
+    width: 150px;
+    border: 1px solid #ddd;
+    text-align: center; 
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.banneritem img{
+	/*height: 40px;*/
+	border: 0px solid red;
+	margin: 0;
+	text-align: center;
+	display: block;
+    max-height: 40px !important;
+	max-width: 150px;
+}
+
+.art-header{
+	/*height: 135px !important;*/
+	height: 106px !important;
+	background-color: white;
+}
+
+.menuart-h{
+	
+	
+}
+
+#meny{
+	/*
+	background-color: none;
+	display: block;
+	clear: both;
+	height: 20px;
+	position: relative;
+	margin-left: 440px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	padding-left: 2px;
+	*/
+	
+	height: 28px;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	position: relative;	
+	width: 1000px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.float-right{
+float:right;
+}
+
+
+.float-left, .blog-featured{
+float:left;
+}
+
+.blog-featured{
+width: 50%;
+}
+
+
+.art-postheader{
+/*display: none;*/
+}
+
+.art-post{
+	margin-bottom: 2em;
+}
+
+
+.custom{
+	padding: 0em 1em 0 1em;
+}
+
+.custom h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #438325;
+}
+
+.custom iframe{
+	width: 100%;
+}
+
+.feed{
+	padding: 1em;
+}
+
+.feed h4{
+	margin-bottom: 0.5em;
+}
+
+.newsfeed{
+	padding-left: 5px;
+}
+
+.blog{
+	float: left;
+	width: 74%;
+	margin: 1em;
+}
+
+
+
+.Elbilnyheter-utland:BEFORE{
+	font-weight: bold;
+	font-size: 1.1em;
+	content: "Ladenytt utland";
+	margin-top: 1em;
+	color: #438325;
+}
+
+.Elbilnyheter-Norge:BEFORE {
+	font-weight: bold;
+	font-size: 1.1em;
+	content: "Ladenytt Norge";
+	margin-top: 1em;
+	color: #438325;
+}
+
+.Elbilnyheter-elbilno:BEFORE {
+	font-weight: bold;
+	font-size: 1.1em;
+	content: "Nyheter Elbil.no";
+	margin-top: 1em;
+	color: #438325;
+}
+
+.cf-list-feeds:BEFORE {
+	font-weight: bold;
+	font-size: 1.1em;
+	content: "Siste ladestasjoner";
+	margin-top: 1em;
+	color: #438325;
+}
+
+#mod-finder-searchword{
+	width: 130px;
+	padding-left: 6px;
+	text-transform: capitalize;
+}
+
+button.button.finder.art-button{
+	width: 50px;
+	text-align: center;
+	margin: 0 10px !important;
+	padding: 0 !important;
+	text-transform: capitalize;
+}
+
+
+body div#art-main div.art-box div.art-box-body div.art-layout-wrapper div.art-content-layout div.art-content-layout-row div.art-layout-cell div.blog div.items-row div.item div.art-box div.art-box-body div.art-post-inner div.art-postcontent div.art-article div.joomla_add_this{
+	display: none;
+}
+
+
+body div#art-main div.art-box div.art-box-body div.art-layout-wrapper div.art-content-layout div.art-content-layout-row div.art-layout-cell div.blog div.items-row div.item div.art-box div.art-box-body div.art-post-inner h2.art-postheader a.PostHeader{
+	font-size: 1.2em;
+}
+
+
+body div#art-main div.art-box div.art-box-body div.art-layout-wrapper div.art-content-layout div.art-content-layout-row div.art-layout-cell div.item-page div.art-box div.art-box-body div.art-post-inner h2.art-postheader{
+	font-size: 2em !important;	
+}
+
+
+
+
+body div#art-main div.art-box div.art-box-body div.art-layout-wrapper div.art-content-layout div.art-content-layout-row div.art-layout-cell div.item-page div.art-box div.art-box-body div.art-post-inner h2.art-postheader a.PostHeader{
+	font-size: 1em !important;
+}

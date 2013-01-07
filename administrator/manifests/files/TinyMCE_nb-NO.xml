@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" version="2.5" method="upgrade">
+   <name>TinyMCE - Norsk bokmål</name>
+   <author>Joomla! i Norge</author>
+   <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+   <authorUrl>http://www.joomlainorge.no</authorUrl>
+   <copyright>(C) 2011 - 2012 Joomla! i Norge</copyright>
+   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+   <version>3.4.4</version>
+   <creationDate>2012-01-24</creationDate>
+   <description><![CDATA[
+      <h2>Norsk bokmål for TinyMCE ble innstallert i Joomla!</h2>
+      Om du bruker andre språk enn engelsk og norsk bokmål i Joomla må du påse at du har installert alle også for TinyMCE før du aktiverer "Automatisk språkvalg" gjennom følgende steg:<br/>
+      <ol>
+      <li>Utvidelser</li>
+      <li>Programtillegg</li>
+      <li><a href="index.php?option=com_plugins&view=plugins&filter_search=TinyMCE">TinyMCE</a></li>
+      <li>Parametre - Programtillegg</li>
+      <li>Automatisk språkvalg :: Ja</li>
+      <li>Funksjonalitet :: Utvidet (Valgfritt! Om du vil aktivere alle funksjoner i TinyMCE)</li>
+      </ol>
+      <p></p>
+      <p>Vær grei å melde eventuelle feil eller problemer med oversettelsene i det <a href="http://forum.joomla.org/viewforum.php?f=210" target="_blank">Norske Joomla!-forumet</a></p>
+      <p></p>
+      <p>Denne pakken er bygget på pakke fra <a href="http://tinymce.moxiecode.com/i18n/index.php?ctrl=lang&act=index&pr_id=1" target="_blank">tinymce.moxiecode.com</a>, tilpasset for Joomla av <a http://filer.joomlainorge.no" target="_blank" title="Joomla! i Norge">Joomla! i Norge</a></p>
+      ]]>
+   </description>
+   <!-- Fileset definition -->
+   <fileset>
+      <files target="media/editors">
+         <filename>tinymce/jscripts/tiny_mce/langs/nb.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/advhr/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/advimage/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/advlink/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/autosave/langs/nb.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/emotions/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/fullpage/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/media/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/paste/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/style/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/table/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/template/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/themes/advanced/langs/nb.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/themes/advanced/langs/nb_dlg.js</filename>
+         <filename>tinymce/jscripts/tiny_mce/themes/simple/langs/nb.js</filename>
+      </files>
+   </fileset>
+</extension>

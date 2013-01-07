@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form
+	addrulepath="/administrator/components/com_coolfeed/models/rules"
+>
+	<fieldset name="style">
+		<field 
+			name="style_id"
+			type="hidden"
+		/>
+		
+		<field 
+			name="style_name"
+			type="input"
+			label="FEED_STYLE_NAME"
+			description="FEED_STYLE_NAME_DS"
+		/>
+		
+		<field
+			name="style_show_list_title"
+			type="radio"
+			label="FEED_STYLE_SHOW_LIST_TITLE"
+			description="FEED_STYLE_SHOW_LIST_TITLE_DS"
+			default="1"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+		
+		<field
+			name="style_show_date"
+			type="radio"
+			label="FEED_STYLE_DATE_TIME"
+			description="FEED_STYLE_DATE_TIME_DS"
+			default="0"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+		
+		<field
+			name="style_show_author"
+			type="radio"
+			label="FEED_STYLE_AUTHOR"
+			description="FEED_STYLE_AUTHOR_DS"
+			default="0"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+		
+		<field
+			name="style_show_content"
+			type="radio"
+			label="FEED_STYLE_CONTENT"
+			description="FEED_STYLE_CONTENT_DS"
+			default="0"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+		
+		<field
+			name="style_number_feed"
+			type="input"
+			label="FEED_STYLE_NUMBER_ENTRY"
+			description="FEED_STYLE_NUMBER_ENTRY_DS"
+			default="5"
+		/>
+		
+		<field
+			name="style_show_translate"
+			type="radio"
+			label="FEED_STYLE_GOOGLE_TRANSLATE"
+			description="FEED_STYLE_GOOGLE_TRANSLATE_DS"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="style_show_search"
+			type="radio"
+			label="FEED_STYLE_SEARCH_FEED"
+			description="FEED_STYLE_SEARCH_FEED_DS"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="style_limit_word_feed"
+			type="input"
+			label="FEED_STYLE_LIMIT_WORD"
+			description="FEED_STYLE_LIMIT_WORD_DS"
+			default="0"
+		/>
+		
+		<field
+			name="style_strip_tag"
+			type="radio"
+			label="FEED_STYLE_STRIP_TAGS"
+			description="FEED_STYLE_STRIP_TAGS_DS"
+			default="0"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="style_show_active_link"
+			type="radio"
+			label="FEED_STYLE_ENABLE_LINK"
+			description="FEED_STYLE_ENABLE_LINK_DS"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="style_rtl"
+			type="radio"
+			label="FEED_STYLE_RTF"
+			description="FEED_STYLE_RTF_DS"
+			default="0"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+		
+		<field
+			name="style_time_reload"
+			type="input"
+			label="FEED_STYLE_TIME_RELOAD"
+			description="FEED_STYLE_TIME_RELOAD_DS"
+			default="0"
+		/>
+		
+		<field
+			name="style_show_social_share"
+			type="radio"
+			label="FEED_STYLE_SOCIAL_SHARE"
+			description="FEED_STYLE_SOCIAL_SHARE_DS"
+			default="0"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="style_show_read_more"
+			type="radio"
+			label="FEED_STYLE_READ_MORE"
+			description="FEED_STYLE_READ_MORE_DS"
+			default="1"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+		
+		<field
+			name="style_prefix_class"
+			type="input"
+			label="FEED_STYLE_PREFIX_CLASS"
+			description="FEED_STYLE_PREFIX_CLASS_DS"
+			default=""
+		/>
+		
+		<field
+			name="style_open_first_entry"
+			type="radio"
+			label="FEED_STYLE_OPEN_FIRST_ENTRY"
+			description="FEED_STYLE_OPEN_FIRST_ENTRY_DS"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="style_modal"
+			type="radio"
+			label="FEED_STYLE_MODAL"
+			description="FEED_STYLE_MODAL_DS"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		
+		<field
+			name="style_modal_size"
+			type="input"
+			label="FEED_STYLE_MODAL_SIZE"
+			description="FEED_STYLE_MODAL_SIZE_DS"
+			default=""
+		/>
+	</fieldset>
+</form>
+

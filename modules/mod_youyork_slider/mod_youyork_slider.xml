@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.6.0"
+	client="site"
+	method="upgrade">
+  <name>Youyork Module Slider</name>
+  <author>YouJoomla.com</author>
+  <creationDate>1-12-2012</creationDate>
+  <license>commercial</license>
+  <authorEmail>youjoomla@gmail.com</authorEmail>
+  <authorUrl>www.youjoomla.com</authorUrl>
+  <version>1.0.1</version>
+  <description>
+    <![CDATA[<style type="text/css" media="all">#wrap1 {padding:0px 0px 4px 0px;}h1 {clear:both;font-family: Arial Narrow,sans-serif;font-size:18px;margin:0px 0px 12px 0px;padding:0px 0px 1px 10px;color:#C64934;}.wrap2 {background:#F7F7F7;}</style><div id="holdthem"><h1>Youyork Module Slider  Module ver 1.0.1 for Joomla 1.6x and UP</h1><div class="wrap2"><a title="Visit the official website!" href="http://www.youjoomla.com"> <img style="float:left;border:1px solid #CFCFCF;margin:0px 15px 4px 22px;" src="../modules/mod_youyork_slider/images/yj_extensions.jpg" border="0" alt="Logo" /></a>]]>
+  </description>
+  <languages>
+    <language tag="en-GB">en-GB.mod_youyork_slider.ini</language>
+    <language tag="en-GB">en-GB.mod_youyork_slider.sys.ini</language>
+  </languages>
+  <files>
+    <filename module="mod_youyork_slider">mod_youyork_slider.php</filename>
+    <filename>index.html</filename>
+    <filename>helper.php</filename>
+    <folder>tmpl</folder>
+    <folder>src</folder>
+    <folder>elements</folder>
+    <folder>css</folder>
+    <folder>images</folder>
+  </files>
+  <config>
+    <fields  name="params" addfieldpath="/modules/mod_youyork_slider/elements/">
+      <fieldset name="basic">
+        <field type="yjspacer" default="&lt;strong&gt;MODULE LAYOUT SETTINGS&lt;/strong&gt;" />
+        <field name="is_copy" type="text" default="" label="Is this module copy?" description="If this is module copy that runs on same page simply add any suffix to avoid conflict. Please make sure there are no spaces. Example:_mysuffix instead mysuffix" />
+        <field name="module_template" type="folderlist" default="Default" hide_none="blank" label="Select default module template" directory="modules/mod_youyork_slider/tmpl" description="You can create custom module  templates for Youyork Module Slider Simply copy modules/mod_youyork_slider/tmpl/Default folder , rename it to your own template name and edit default.php within your template folder to your liking. Once you have created your module template , your template name will be visible here. You can also copy your template folder to your template/html/mod_youyork_slider/ folder and create custom overides for each module instance. To get you started we have created blank module template name New" />
+        <field type="yjspacer" default="&lt;strong&gt;SLIDER LAYOUT SETTINGS&lt;/strong&gt;" />
+        <field name="slider_width" type="text" default="980px" label="Slider width" description="Should not be wider than the module holding div container" />
+        <field name="slider_height" type="text" default="250px" label="Slider height" description="Define slider height" />
+        <field name="module_pozi" type="text" default="Slide1,Slide2" size="120" label="York Modules" description="Enter modules you want to display seperated by comma.Note:The modules must be published on All pages. Suggestion:Create addtional module positions like , Slider1 , Slider2  and use these. For Joomla1.0  go to Site - Template Manager - Module Positions and create new ones, for Joomla  1.5 open templatedetails.xml , find positions tag and add your new module positions"/>
+        <field name="module_title" type="text" default="Title1,Title2" size="120" label="York module title " description="Enter titles in same order as modules above seperated by comma"/>
+        <field name="showtitle" type="list" default="1" label="Show Module Titles" description="Show module titles" >
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </field>
+        <field type="yjspacer" default="&lt;strong&gt;SLIDER SCRIPT SETTINGS&lt;/strong&gt;" />
+        <field name="visible_modules" type="text" default="2" label="Visible Intro items" description="Set the number of visible intro items on page load" />
+        <field name="effectDuration" type="text" default="500" label="Effect durration" description="Slide transition effect duration. Defined in milliseconds.1 sec = 1000" />
+        <field name="autoslide" type="text" default="5000" label="Autoslide" description="This is auto slide duration between the slides. If set to 0 slider will not slide automatically" />
+        <field type="yjspacer" default="&lt;strong&gt;MODULE SUFFIX&lt;/strong&gt;" />
+        <field name="moduleclass_sfx" type="text" default="_youyork_slider" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+      </fieldset>
+    </fields>
+  </config>
+</extension>
