@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5.0"
+	client="site"
+	method="upgrade">
+	<name>CoolFeed Module</name>
+	<author>Trung Nguyen Quang</author>
+	<creationDate>March 2011</creationDate>
+	<copyright>JoomAvatar.com</copyright>
+	<license>License GNU General Public License version 2 or later</license>
+	<authorEmail>trung3388@joomavatar.com</authorEmail>
+	<authorUrl>www.joomavatar.com</authorUrl>
+	<version>1.0.4</version>
+	<edition>Free</edition>
+	<description>MODULE_COOLFEED_XML_DES</description>
+	<files>
+		<filename module="mod_coolfeed">mod_coolfeed.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_coolfeed.ini</language>
+		<language tag="en-GB">en-GB.mod_coolfeed.sys.ini</language>
+	</languages>
+	<config>
+		<fields 
+			name="params"
+			addfieldpath="/administrator/components/com_coolfeed/models/fields"
+			>
+			<fieldset name="basic">
+				<field
+                       name="display_style"
+                       type="radio"
+                       value="group"
+                       label="MODULE_DISPLAY_STYLE"
+                       description="MODULE_DISPLAY_STYLE_DS"
+                >
+                	<option value="group">MODULE_GROUP</option>
+                	<option value="feed">MODULE_FEED</option>
+                </field>
+                
+				<field
+                       name="group_id"
+                       type="group"
+                       label="MODULE_GROUP_LABEL"
+                       description="MODULE_GROUP_LABEL_DS"
+                />
+                <field
+                       name="feed_id"
+                       type="feed"
+                       label="MODULE_FEED_LABEL"
+                       description="MODULE_FEED_LABEL_DS"
+                />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

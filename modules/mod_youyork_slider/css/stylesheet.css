@@ -1,0 +1,69 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Copyright (C) 2006-2011 Youjoomla LLC. All Rights Reserved.        ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| # ---------------- THIS IS NOT FREE SOFTWARE ---------------- #      ||
+|| # http://www.youjoomla.com | http://www.youjoomla.com/license.html # ||
+|| #################################################################### ||
+\*======================================================================*/
+/* main container*/
+.yy_container{
+	display:block;
+	position:relative;
+	margin:0px auto;
+	background:#fff;
+	padding:0;
+}
+/* slides contaner*/
+.yy_slider {
+	display:block;
+	position:relative;
+	clear:both;
+	overflow:hidden;
+	margin:0 auto;
+}
+/* sliding items*/
+.yy_slider .yy_slideitems {
+	display:block;
+	position:relative;
+	padding:25px 0;
+	margin:0;
+	float:left;
+}
+/* sliding content holder*/
+.yy_slider .yy_slideitems_in{
+	background: url(../images/slide_sep.gif) repeat-y right top;
+	margin:0 -2px 0 0;
+	padding:0 50px;
+	overflow:hidden;
+}
+/*title*/
+.yy_module_title{
+	display:block;
+	overflow:hidden;
+	clear:both;
+}
+/* navigation */
+.yy_container .linkForward,
+.yy_container .linkBackward {
+	display:block;
+	position:absolute;
+	right:20px;
+	top:48%;
+	width:14px;
+	height:14px;
+	background-image:url(../images/right.gif);
+	background-position: center top;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.yy_container .linkBackward{
+	left:20px;
+	right:auto;
+	background-image:url(../images/left.gif);
+}
+
+.yy_container .linkForward:hover, 
+.yy_container .linkBackward:hover{
+	background-position:center bottom;
+}

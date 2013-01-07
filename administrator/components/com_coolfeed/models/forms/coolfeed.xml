@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	addrulepath="/administrator/components/com_coolfeed/models/rules"
+>
+	<fieldset name="details">
+		<field
+			name="coolfeed_id"
+			type="hidden"
+		/>
+		
+		<field
+			name="style_id"
+			type="hidden"
+		/>
+		
+		<field
+			name="title"
+			type="text"
+			label="FEED_EDIT_TITLE"
+			description="FEED_EDIT_TITLE_DS"
+			size="40"
+			class="inputbox validate"
+			required="true"
+			default=""
+		/>
+		
+		<field
+			name="link"
+			type="text"
+			label="FEED_EDIT_URL"
+			description="FEED_EDIT_URL_DS"
+			size="40"
+			class="inputbox validate-url"
+			required="true"
+			default=""
+		/>
+		
+		<field name="published" type="list"
+			label="JSTATUS" description="JFIELD_PUBLISHED_DESC"
+			class="inputbox" size="1" default="1"
+		>
+			<option value="1">
+				JPUBLISHED</option>
+			<option value="0">
+				JUNPUBLISHED</option>
+		</field>
+		
+		<field name="publish_up" type="calendar"
+			label="JGLOBAL_FIELD_PUBLISH_UP_LABEL" description="JGLOBAL_FIELD_PUBLISH_UP_DESC"
+			class="inputbox" format="%Y-%m-%d %H:%M:%S" size="22"
+			filter="user_utc" />
+			
+		<field name="publish_down" type="calendar"
+			label="JGLOBAL_FIELD_PUBLISH_DOWN_LABEL" description="JGLOBAL_FIELD_PUBLISH_DOWN_DESC"
+			class="inputbox" format="%Y-%m-%d %H:%M:%S" size="22"
+			filter="user_utc" />
+			
+		<field name="access" type="accesslevel" label="JFIELD_ACCESS_LABEL"
+			description="JFIELD_ACCESS_DESC" class="inputbox" size="1" />
+			
+		<field name="ordering" type="ordering" class="inputbox"
+			label="FIELD_ORDER_ORDER" description="FIELD_ORDER_ORDER_DS" />
+			
+	</fieldset>
+	
+	<fields
+         addfieldpath="/administrator/components/com_coolfeed/models/fields"
+        >
+        <fieldset name="group">
+                <field
+                     name="group_id"
+                     type="group"
+                     label="FEED_EDIT_GROUP"
+                     description="FEED_EDIT_GROUP_DS"
+                />
+        </fieldset>
+        <fieldset name="style">
+                <field
+                     name="style_id"
+                     type="style"
+                     class="validate"
+					 required="true"
+                     label="FEED_EDIT_STYLE"
+                     description="FEED_EDIT_STYLE_DS"
+                />
+        </fieldset>
+    </fields>
+</form>
+

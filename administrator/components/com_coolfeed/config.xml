@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="General"
+		label="General config"
+		description="General config"
+	>
+		<field
+			name="google_feed_api_key"
+			type="input"
+			label="Google Feed Api Key"
+			description="Google Feed Api Key"
+			size="70"
+		/>
+		<field
+			name="global_prefix_class"
+			type="input"
+			label="GLOBAL_PREFIX_CLASS"
+			description="GLOBAL_PREFIX_CLASS_DESCRIPTION"
+			size="70"
+		/>
+	</fieldset>
+</config>
+

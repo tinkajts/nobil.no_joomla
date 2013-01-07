@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 38 2011-06-11 17:41:32Z trung3388@gmail.com $ -->
+<metadata>
+	<layout title="MENU_FEED_VIEW_TITLE">
+		<message>MENU_FEED_VIEW_DES</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_coolfeed/models/fields"
+	>
+		<fieldset name="request">
+			<field
+            	name="display_style"
+                type="radio"
+                value="group"
+                label="MENU_DISPLAY_STYLE"
+                description="MENU_DISPLAY_STYLE_DS"
+            >
+            	<option value="group">MENU_GROUP</option>
+            	<option value="feed">MENU_FEED</option>
+            </field>
+            <field
+            	name="group_id"
+                type="group"
+                label="MENU_GROUP_LABEL"
+                description="MENU_GROUP_LABEL_DS"
+            />
+            <field
+                name="feed_id"
+                type="feed"
+                label="MENU_FEED_LABEL"
+                description="MENU_FEED_LABEL_DS"
+            />
+		</fieldset>
+	</fields>
+</metadata>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>com_coolfeed</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>March 2011</creationDate>
+	<author>Trung Nguyen Quang</author>
+	<authorEmail>trung3388@joomavatar.com</authorEmail>
+	<authorUrl>http://www.joomavatar.com</authorUrl>
+	<copyright>JoomAvatar.com</copyright>
+	<license>License GNU General Public License version 2 or later</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0.4</version>
+	<edition>Free</edition>
+	<!-- The description is optional and defaults to the name -->
+	<description>COM_COOLFEED_DESCRIPTION</description>
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<update> <!-- Runs on update; New in 1.6 -->
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+		to copy FROM in the package to install therefore files copied
+		in this section are copied from /site/ in the package -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>coolfeed.php</filename>
+		<filename>controller.php</filename>
+		<folder>assets</folder>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>language</folder>
+	</files>
+	
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="../administrator/components/com_coolfeed/assets/images/16/feed.png" link="option=com_coolfeed&amp;view=coolfeeds">COM_COOLFEED</menu>
+		<submenu>
+			<menu img="../administrator/components/com_coolfeed/assets/images/16/feed.png" alt="CF_FEEDS" view="coolfeeds" link="option=com_coolfeed&amp;view=coolfeeds">CF_FEEDS</menu>
+			<menu img="../administrator/components/com_coolfeed/assets/images/16/group.png" alt="CF_GROUPS" view="groups" link="option=com_coolfeed&amp;view=groups">CF_GROUPS</menu>
+			<menu img="../administrator/components/com_coolfeed/assets/images/16/group.png" alt="CF_STYLES" view="styles" link="option=com_coolfeed&amp;view=styles">CF_STYLES</menu>
+		</submenu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+			<filename>coolfeed.php</filename>
+			<filename>controller.php</filename>
+			<!-- Assest files section -->
+			<folder>assets</folder>
+			<folder>classes</folder>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+			<!-- tables files section -->
+			<folder>tables</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+			<!-- controllers files section -->
+			<folder>controllers</folder>
+			<!-- helpers files section -->
+			<folder>helpers</folder>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_coolfeed.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_coolfeed.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
+

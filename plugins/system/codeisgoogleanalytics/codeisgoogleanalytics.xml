@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="system">
+	<name>System - CodeIs Google Analytics</name>
+	<author>John</author>
+	<creationDate>21 Feb. 2011</creationDate>
+	<copyright>codeis.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>guohongqiao@gmail.com</authorEmail>
+	<authorUrl>www.codeis.com</authorUrl>
+	<version>1.2</version>
+	<description>CodeIs Google Analytics is sytem plugin, it can put Google Analytics tracking code into your Joomla site.</description>
+	<files>
+		<filename plugin="codeisgoogleanalytics">codeisgoogleanalytics.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+<config>
+	<fields name="params">
+	 <fieldset name="basic">
+		<field name="account_id" type="text" default="" label="Web Property ID" description="This ID is unique to each site you want to track, and is in the form of UA-xxxxxxx-y. To get a Web Property ID, register your site with Google Analytics, or if you already have registered your site, go to your Google Analytics Settings page to see the ID next to every site profile." ></field>
+	</fieldset>
+	</fields>
+</config>
+</extension>
