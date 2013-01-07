@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'm1.mysqlserveren.com';
-	public $user = 'chargelizercom';
-	public $password = 'trE76L3kti';
-	public $db = 'chargelizercomdb';
+	public $host = 'norstartorg2.mysql.domeneshop.no';
+	public $user = 'norstartorg2';
+	public $password = 'J8tRAyQf';
+	public $db = 'norstartorg2';
 	public $dbprefix = 'dvfen_';
 	public $live_site = '';
 	public $secret = 'E63EXsSx2je9CAaN';
@@ -31,8 +31,8 @@ class JConfig {
 	public $offset = 'Europe/Oslo';
 	public $offset_user = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'post@chargelizer.com';
-	public $fromname = 'Ladestasjoner.no';
+	public $mailfrom = 'post@nobil.no';
+	public $fromname = 'NOBIL.no';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/kunder/chargelizer.com/www/logs';
-	public $tmp_path = '/kunder/chargelizer.com/www/tmp';
+	public $log_path = '/home/2/n/norstart/www/logs';
+	public $tmp_path = '/home/2/n/norstart/www/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
