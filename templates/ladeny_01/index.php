@@ -27,7 +27,7 @@ $view->componentWrapper();
 	xml:lang="<?php echo $document->language; ?>"
 	lang="<?php echo $document->language; ?>" dir="ltr">
 <head>
-<link rel="icon" type="image/png" href="<?php echo $templateUrl; ?>/images/favicon.png" />
+<link rel="icon" type="image/png" href="<?php echo $templateUrl; ?>/images/favicon_nobil.png" />
 <jdoc:include type="head" />
 <link rel="stylesheet"
 	href="<?php echo $document->baseurl; ?>/templates/system/css/system.css"
@@ -102,7 +102,7 @@ $view->componentWrapper();
 								<?php echo $view->position('banner4'); ?>
 							</div>
 						</div>
-						<div class="art-logo"><a href="/" title="Hjem"><img src="<?php echo $templateUrl; ?>/images/ladestnylogoknhw2.png" alt="Logo" width="300px" height="86px"/></a></div>
+						<div class="art-logo"><a href="/" title="Hjem"><img src="<?php echo $templateUrl; ?>/images/Nobiltranstest_logo.png" alt="Logo" width="261px" height="138px"/></a></div>
 					</div>
 				</div>
 			</div>
