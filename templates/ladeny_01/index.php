@@ -27,7 +27,7 @@ $view->componentWrapper();
 	xml:lang="<?php echo $document->language; ?>"
 	lang="<?php echo $document->language; ?>" dir="ltr">
 <head>
-<link rel="icon" type="image/png" href="<?php echo $templateUrl; ?>/images/favicon_nobil.png" />
+<link rel="icon" type="image/png" href="<?php echo $templateUrl; ?>/images/faviconnobil.png" />
 <jdoc:include type="head" />
 <link rel="stylesheet"
 	href="<?php echo $document->baseurl; ?>/templates/system/css/system.css"
