@@ -841,7 +841,7 @@ div.art-logo
    position: absolute;
    top: 20px;
    left: 0;
-   margin-left: 10px;
+   margin-left: 1.2em;
 }
 
 /* end Logo */
@@ -888,19 +888,21 @@ div.art-logo
 .art-layout-wrapper
 {
    position:relative;
-   margin:0 auto 0 auto;
+   margin:0 1.2em 0 auto;
 }
 
 .art-content-layout
 {
-   display: table;
+   /*display: table;*/
    width:100%;
    table-layout: fixed;
    border-collapse: collapse;
+   
 }
 
 .art-content-layout-row {
    display: table-row;
+   
 }
 
 .art-layout-cell

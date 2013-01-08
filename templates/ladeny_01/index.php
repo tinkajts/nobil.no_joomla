@@ -112,10 +112,10 @@ $view->componentWrapper();
 		<div class="cleared reset-box"></div>
 		<div class="art-box art-sheet">
 			<div class="art-box-body art-sheet-body">
-				<?php echo $view->position('applikasjon'); ?>
-
-				<?php echo $view->positions(array('top1' => 25, 'top2' => 25, 'top3' => 25, 'top4' => 25), 'art-block'); ?>
+				
 				<div class="art-layout-wrapper">
+				<?php echo "<div class='float-left mr20' style='max-width:24%'>" . $view->position('left') . "</div>"; ?>
+				<?php //echo "<div class='float-right' style='width:23%'>" . $view->position('right') . "</div>"; ?>
 					<div class="art-content-layout">
 						<div class="art-content-layout-row">
 							<div class="art-layout-cell art-content">
@@ -125,15 +125,20 @@ $view->componentWrapper();
   if ($view->containsModules('breadcrumb'))
     echo artxPost($view->position('breadcrumb'));
 //echo $view->positions(array('user1' => 50, 'user2' => 50), 'art-article');
-  echo "<div class='float-left' style='max-width:24%'>" . $view->position('left') . "</div>";
+  
   if ($view->hasMessages())
     echo "<div class='float-left' style='width:50%'>" . artxPost('<jdoc:include type="message" />') . "</div>";
+  
+  echo $view->position('applikasjon');
+  
+  echo $view->positions(array('top1' => 25, 'top2' => 25, 'top3' => 25, 'top4' => 25), 'art-block');
+  
   echo '<jdoc:include type="component" />';
   
   //echo $view->positions(array('user4' => 50, 'user5' => 50), 'art-article');
   
 ?>
-<?php echo "<div class='float-right' style='width:23%'>" . $view->position('right') . "</div>"; ?>
+
 								<div class="cleared"></div>
 														
 							</div>
