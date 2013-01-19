@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /Ladestasjoner.no.tar.gz
 /nobil_no_Dump20130106.sql
 /configuration.php
+=======
+Chargelizer_Dump20130106.sql
+configuration.php
+configuration.php_prod
+>>>>>>> fde3b3da264781bdb0f19bf4c2c7cadc1437e825
