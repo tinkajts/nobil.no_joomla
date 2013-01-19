@@ -157,10 +157,17 @@ float:left;
 	color: #438325;
 }
 
+.finder{
+
+margin-bottom: 1.1em;
+
+}
+
 #mod-finder-searchword{
-	width: 130px;
+	width: 110px;
 	padding-left: 6px;
 	text-transform: capitalize;
+	margin-left: 1.1em;
 }
 
 button.button.finder.art-button{

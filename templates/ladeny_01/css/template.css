@@ -524,7 +524,7 @@ ul.menuart-h{
    padding: 0 0 0 0;
    float: none;
    background-color: #223f85;
-   margin: 0 14px;
+   margin: 0 1.1em 4.5em 1.1em;
 }
 
 /* end menu structure */
@@ -686,7 +686,7 @@ ul.menuart-h>li:before
    left:  -1px;
    width:1px;
    height: 28px;
-   background: url('../images/menuseparator.png') center center no-repeat;
+   /*background: url('../images/menuseparator.png') center center no-repeat;*/
 }
 
 ul.menuart-h>li {
@@ -1120,8 +1120,9 @@ span.art-button-wrapper>span.art-button-l, span.art-button-wrapper>span.art-butt
    bottom: 0;
    margin: 0;
    padding: 0;
-   background-image: url('../images/button.png');
-   background-repeat: no-repeat;
+   /*background-image: url('../images/button.png');
+   background-repeat: no-repeat;*/
+background-color: #98B53B;
 }
 
 span.art-button-wrapper>span.art-button-l
