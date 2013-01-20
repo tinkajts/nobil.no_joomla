@@ -101,6 +101,7 @@ $view->componentWrapper();
 								<?php echo $view->position('banner5'); ?>
 								<?php echo $view->position('banner4'); ?>
 							</div>
+							<div style="float: right; position: absolute; top: 45px;right: 0.6em;"><a href="http://transnova.no" title="Gå til Transnova.no"><img src="<?php echo $templateUrl; ?>/../../images/banners/banner_samarbeidmellom.jpg" alt="Transnova - samarbeidspartner" width="328px" height="109px"/></a></div>
 						</div>
 						<div class="art-logo"><a href="/" title="Hjem"><img src="<?php echo $templateUrl; ?>/images/Nobiltranstest_logo.png" alt="Logo" width="261px" height="138px"/></a></div>
 					</div>
