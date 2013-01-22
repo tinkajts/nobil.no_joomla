@@ -98,7 +98,7 @@ float:left;
 .custom h3 {
 	font-size: 1.2em;
 	font-weight: bold;
-	color: #438325;
+	color: #98b53b;
 }
 
 .custom iframe{
@@ -130,7 +130,7 @@ float:left;
 	font-size: 1.1em;
 	content: "Ladenytt utland";
 	margin-top: 1em;
-	color: #438325;
+	color: #98b53b;
 }
 
 .Elbilnyheter-Norge:BEFORE {
@@ -138,7 +138,7 @@ float:left;
 	font-size: 1.1em;
 	content: "Ladenytt Norge";
 	margin-top: 1em;
-	color: #438325;
+	color: #98b53b;
 }
 
 .Elbilnyheter-elbilno:BEFORE {
@@ -146,7 +146,7 @@ float:left;
 	font-size: 1.1em;
 	content: "Nyheter Elbil.no";
 	margin-top: 1em;
-	color: #438325;
+	color: #98b53b;
 }
 
 .cf-list-feeds:BEFORE {
@@ -154,7 +154,7 @@ float:left;
 	font-size: 1.1em;
 	content: "Siste ladestasjoner";
 	margin-top: 1em;
-	color: #438325;
+	color: #98b53b;
 }
 
 .finder{
@@ -207,9 +207,10 @@ body div#art-main div.art-box div.art-box-body div.art-layout-wrapper div.art-co
 .customgreenbox{
 	color: black;
 	font-weight: 600;
-	padding: 1em;
+	padding: 1.4em;
 	background-color: #98b53b;
-	-moz-box-shadow: inset 0 0 5px 5px #222;
-	-webkit-box-shadow: inset 0 0 5px 5px #222;
-	box-shadow: inset 0 0 5px 5px #222;	
+	-moz-box-shadow:    8px 8px 7px #ccc;
+  	-webkit-box-shadow: 8px 8px 7px #ccc;
+  	box-shadow: 8px 8px 7px #ccc;
+  	line-height: 1.6em;
 }

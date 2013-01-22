@@ -1,6 +1,6 @@
 /* content plugin styles */
 .jcomments-links {margin-top: 10px; clear:both; text-align: left}
-.comments-link, .readmore-link{padding: 0 5px 5px 14px;background-image: url(images/jc_blog.gif);background-repeat: no-repeat}
+.comments-link, .readmore-link{padding: 3px 5px; /*background-image: url(images/jc_blog.gif);background-repeat: no-repeat*/}
 .comments-link {background-position: 0 -27px}
 .readmore-link {background-position: 0 2px}
 	
