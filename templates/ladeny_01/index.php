@@ -132,7 +132,8 @@ $view->componentWrapper();
   
   echo $view->position('applikasjon');
   
-  echo $view->positions(array('top1' => 25, 'top2' => 25, 'top3' => 25, 'top4' => 25), 'art-block');
+  //echo $view->positions(array('top1' => 33, 'top2' => 33, 'top3' => 33, 'top4' => 25), 'art-block');
+  echo $view->positions(array('top1' => 33, 'top2' => 33, 'top3' => 33), 'art-block');
   
   echo '<jdoc:include type="component" />';
   
