@@ -115,7 +115,7 @@ $view->componentWrapper();
 			<div class="art-box-body art-sheet-body">
 				
 				<div class="art-layout-wrapper">
-				<?php echo "<div class='float-left mr20' style='max-width:24%'>" . $view->position('left') . "</div>"; ?>
+				<?php echo "<div class='float-left mr20' style='max-width:24%'>"/*$view->position('left') </div>*/ ?> <jdoc:include type="modules" name="left" style="xhtml" /> </div>
 				<?php //echo "<div class='float-right' style='width:23%'>" . $view->position('right') . "</div>"; ?>
 					<div class="art-content-layout">
 						<div class="art-content-layout-row">
