@@ -78,22 +78,17 @@ ul.art-vmenu a
 
 .art-postcontent a:link
 {
-   text-decoration: none;
-   color: #fff;
-   background-color: #223f85;
+   text-decoration: none;   
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
-   color: #fff;
-   background-color: #223f85;
+   
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
 {
-   text-decoration: underline;
-   color: #fff;
-   background-color: #223f85;
+   text-decoration: underline;   
 }
 
 .art-postcontent h1
@@ -137,7 +132,7 @@ ul.art-vmenu a
 
 .art-postcontent h3
 {
-   color: #98b53b;
+   color: #223F85;
    margin: 20px 0 10px;
    font-weight: bold;
    font-size: 1.2em;
@@ -161,7 +156,7 @@ ul.art-vmenu a
 
 .art-postcontent h4
 {
-   color: #98b53b;
+   color: #223F85;
    font-weight: normal;
    font-size: 1.2em;
    text-transform: none;
@@ -528,9 +523,9 @@ ul.menuart-h{
    float: none;
    background-color: #223f85;
    margin: 0 1.1em 1em 1.1em;
-   -moz-box-shadow:    8px 8px 7px #ccc;
-   -webkit-box-shadow: 8px 8px 7px #ccc;
-   box-shadow: 8px 8px 7px #ccc;
+   -moz-box-shadow:    7px 7px 5px #acaaab;
+   -webkit-box-shadow: 7px 7px 5px #acaaab;
+   box-shadow: 7px 7px 5px #acaaab;
    height: 335px;
 }
 
@@ -1008,19 +1003,19 @@ div.art-block img
 
 .art-blockcontent-body a, .art-blockcontent-body a:link
 {
-   color: #98b53b;
+   color: #223F85;
    text-decoration: underline;
 }
 
 .art-blockcontent-body a:visited, .art-blockcontent-body a.visited
 {
-   color: #98b53b;
+   color: #223F85;
    text-decoration: none;
 }
 
 .art-blockcontent-body a:hover, .art-blockcontent-body a.hover
 {
-   color: #98b53b;
+   color: #223F85;
    text-decoration: underline;
 }
 
@@ -1258,17 +1253,17 @@ pre
 {
    text-align: left;
    text-decoration: none;
-   color: #98b53b;
+   color: #223F85;
 }
 
 .art-postheader a:visited, .art-postheader a.visited
 {
-   color: #98b53b;
+   color: #223F85;
 }
 
 .art-postheader a:hover,  .art-postheader a.hovered
 {
-   color: #98b53b;
+   color: #223F85;
    text-decoration: underline;
 }
 

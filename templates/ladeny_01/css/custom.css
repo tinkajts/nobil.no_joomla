@@ -206,11 +206,42 @@ body div#art-main div.art-box div.art-box-body div.art-layout-wrapper div.art-co
 
 .customgreenbox{
 	color: black;
-	font-weight: 600;
+	
 	padding: 1.4em;
 	background-color: #98b53b;
-	-moz-box-shadow:    8px 8px 7px #ccc;
-  	-webkit-box-shadow: 8px 8px 7px #ccc;
-  	box-shadow: 8px 8px 7px #ccc;
-  	line-height: 1.6em;
+	-moz-box-shadow:    7px 7px 5px #acaaab;
+   -webkit-box-shadow: 7px 7px 5px #acaaab;
+   box-shadow: 7px 7px 5px #acaaab;
+  	line-height: 1.3em;
+  	height: 293px;
+  	font-size: 1.2em;
 }
+
+
+.customgreenbox .jcomments-links {
+	margin-top: 0;
+	clear: none;
+	text-align: left;
+	
+}
+
+.customgreenbox .jcomments-links a{
+	text-decoration:none;
+	color: #fff;
+	font-size: 13px !important;
+	line-height: 1.2em;
+}
+
+.customgreenbox .jcomments-links a:hover{
+	text-decoration:underline;
+}
+
+.customgreenbox .jcomments-links .readmore-link{
+	float:right;	
+}
+
+.jcomments-links .readmore-link{
+	color: #fff;
+	background-color: #223f85;		
+}
+
