@@ -123,37 +123,10 @@ float:left;
 	margin: 1em;
 }
 
-
-
-.Elbilnyheter-utland:BEFORE{
+.moduletable h3{
 	font-weight: bold;
 	font-size: 1.1em;
-	content: "Ladenytt utland";
-	margin-top: 1em;
-	color: #98b53b;
-}
-
-.Elbilnyheter-Norge:BEFORE {
-	font-weight: bold;
-	font-size: 1.1em;
-	content: "Ladenytt Norge";
-	margin-top: 1em;
-	color: #98b53b;
-}
-
-.Elbilnyheter-elbilno:BEFORE {
-	font-weight: bold;
-	font-size: 1.1em;
-	content: "Nyheter Elbil.no";
-	margin-top: 1em;
-	color: #98b53b;
-}
-
-.cf-list-feeds:BEFORE {
-	font-weight: bold;
-	font-size: 1.1em;
-	content: "Siste ladestasjoner";
-	margin-top: 1em;
+	margin: 1em 0 0 1em;
 	color: #98b53b;
 }
 
