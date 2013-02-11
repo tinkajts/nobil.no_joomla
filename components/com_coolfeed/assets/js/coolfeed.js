@@ -233,7 +233,7 @@ var CoolFeed = {
 
 				html += '<div class="cf-wrapper">';
 	        	html += (feedOptions.style_show_translate == 1) ? langBOX : '';
-	        	html += (feedOptions.style_show_list_title == 1) ? '	<h3 class="cf-heading">'+ headTitleLink +'</h3>' : '<br/>';
+	        	html += (feedOptions.style_show_list_title == 1) ? '	<h3 class="cf-heading">'+ headTitleLink +'</h3>' : '';
 	            html += '	<ul class="cf-list-feeds">';
 	
 	        	for (var i = 0; i < count; i++) 
@@ -325,7 +325,7 @@ var CoolFeed = {
 			
 			html += '<div class="cf-wrapper">';
         	html += (feedOptions.style_show_translate == 1) ? langBOX : '';
-        	html += (feedOptions.style_show_list_title == 1) ? '	<h3 class="cf-heading">'+ headTitleLink +'</h3>' : '<br/>';
+        	html += (feedOptions.style_show_list_title == 1) ? '	<h3 class="cf-heading">'+ headTitleLink +'</h3>' : '';
 	    	html += '	<ul class="cf-list-feeds">';
 			
 	    	for (var i = 0; i < count; i++) 

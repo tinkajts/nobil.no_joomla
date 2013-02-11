@@ -4,7 +4,7 @@
 .cf-wrapper{
 	background-color: #fff;
     border: 0px solid #CCCCCC;
-    margin: 1em 1.2em;   
+    margin: 0 1.2em;   
 }
 #coolfeed .cf-wrapper a{
 	text-decoration:none;
@@ -78,7 +78,7 @@ div.cf-social-share-box a{
 }
 
 .cf-feed-search-wrapper{
-	margin:10px 0px;
+	margin:0;
 }
 .cf-feed-search{
 	-moz-border-radius: 4px 4px 4px 4px;
