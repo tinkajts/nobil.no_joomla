@@ -1002,8 +1002,11 @@ function backup_start()
 
 function backup_step(data)
 {
-	console.debug('Running backup step');
-	console.log(data);
+	try {
+		console.debug('Running backup step');
+		console.log(data);
+	} catch(e) {
+	}
 	
 	// Update visual step progress from active domain data
 	reset_timeout_bar();

@@ -1,6 +1,10 @@
 <?php die();?>
 Akeeba Backup 3.6.11
 ================================================================================
+# [LOW] Backup doesn't run on IE because it lacks console.debug support (ugh!)
+
+Akeeba Backup 3.6.11
+================================================================================
 + Allow you to specify only one Super Administrator to receive emails for Akeeba Backup updates
 + The users have to acknowledge a warning against untested backups before using the component
 # [HIGH] Restoring backups with multiple databases doesn't allow you to modify the super administrator password
